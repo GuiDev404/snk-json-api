@@ -1,0 +1,22 @@
+{
+  "name": "snk_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraping_page.js",
+  "scripts": {
+    "start": "node ./scraping/index.js",
+    "dev": "nodemon ./api/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "lowdb": "^2.1.0",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
